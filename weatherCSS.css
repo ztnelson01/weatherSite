@@ -1,0 +1,147 @@
+
+
+#name
+{
+	font-family: arial, sans-serif;
+	font-size:20px;
+	float: right;
+	color: rgba(255,255,255,1);
+}
+#meBounds
+{
+  text-align: center;
+}
+#me
+{
+
+  width: 500px;
+  height: 500px;
+}
+
+
+
+#myTitle
+{
+	font-family: arial, sans-serif;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	background-color: rgba(0,0,0,.6);
+}
+#weatherTable
+{
+ width: 75%;
+}
+#weatherTable th td
+{
+  text-align: center;
+}
+#currentWeather
+{
+  font-size: 40px;
+}
+#menu 
+{
+font-family: arial, sans-serif;
+position: absolute;
+top:80;
+left:0;
+width: 650px;
+height:56px;
+font-size:14px;
+color:#999;
+margin: 0 auto;
+}
+
+#menu ul 
+{
+list-style-type: none;
+}
+
+#menu ul li 
+{
+float: left;
+position: relative;
+}
+
+#menu ul li a 
+{
+text-align: center;
+border-right:1px solid #e9e9e9;
+border-left:1px solid #e9e9e9;
+padding:20px;
+display:block;
+text-decoration:none;
+color:#999;
+}
+
+#menu ul li:hover a 
+{
+background-color: rgba(0,0,155,.7);
+}
+
+#menu ul li ul 
+{
+display: none
+}
+/*
+#menu ul li:hover ul 
+{
+display: block;
+position: absolute;
+}
+*/
+#menu ul li:hover ul li a 
+{
+display:block;
+background:#12aeef;
+color:#ffffff;
+width: 110px;
+text-align: center;
+border-bottom: 1px solid #f2f2f2;
+border-right: none;
+}
+
+#menu ul li:hover ul li a:hover 
+{
+background:#6dc7ec;
+color:#fff;
+}
+
+
+
+#main:before {
+  content: "";
+  position: absolute;
+  width: 100%; 
+  height: 200%;  
+  opacity: .4; 
+  z-index: -1;
+  background: url("http://www.reasons.org/Media/Default/ImageCache/559x400-FitWidth/Images/cloudsa-1.jpeg");
+  background-size: cover;
+   
+    background-attachment: fixed;
+}
+#current:before
+{
+  content: "";
+  position: absolute;
+  width: 100%; 
+  height: 200%;  
+  opacity: .4; 
+  z-index: -1;
+  
+  background: url("http://cdn1.landscapehdwalls.com/thumbs/1/sunny-field-415-706.jpg");
+
+  background-size: cover;
+   
+  background-attachment: fixed;
+}
+ 
+#resume
+{
+  width: 60%;
+}
+#resume, th, td
+{
+  border: 1px solid black;
+}
